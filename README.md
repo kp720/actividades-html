@@ -1,6 +1,6 @@
-# Actividad 1: Ejercicios de HTML
+# Ejercicios de HTML
 
-Este repositorio recopila seis ejercicios prácticos para aprender los fundamentos de HTML.
+Este repositorio recopila ejercicios prácticos sobre los fundamentos de HTML, CSS, JavaScript y Bootstrap.
 
 ## Descripción
 
@@ -33,22 +33,21 @@ El proyecto reúne varias páginas HTML independientes. Cada ejercicio presenta 
 
 | Ejercicio | Tema | Descripción |
 | :---: | --- | --- |
-| 1 | Hola Mundo | Presenta un encabezado y un párrafo básico. |
-| 2 | Texto y formato | Practica párrafos, saltos de línea, texto importante (`strong`) y énfasis (`em`). |
-| 3 | Enlaces | Incluye enlaces externos y ejemplos de apertura en la misma pestaña o en una nueva. |
-| 4 | Imágenes | Muestra cómo insertar una imagen con `img`, texto alternativo y ancho definido. |
-| 5 | Integración | Combina texto con formato, una imagen y un enlace a un perfil de GitHub. |
-| 6 | Secciones semánticas | Utiliza `header`, `section` y `footer` para organizar el contenido. |
+| 1 | Hola Mundo | Página con texto básico de Hola Mundo en `h1`. |
+| 2 | Párrafos y formatos | Página con formatos de texto básicos como `strong` y `em`. |
+| 3 | Enlaces simples | Página con ejemplo de uso de hipervínculos con `p` y `a`. |
+| 4 | Imágenes básicas | Página con ejemplo del uso de imágenes con `img`. |
+| 5 | Combinación de texto y enlaces | Página con ejemplo práctico del uso de hipervínculos (`a`) con texto normal (`p`). |
+| 6 | Semántica básica | Página con ejemplo de uso de `header`, `section` y `footer` para un formato básico. |
 
 
 No se necesitan dependencias ni un proceso de compilación para ejecutar estos ejercicios básicos.
 
-## Tecnologías y recursos
+## Tecnologías
 
 - HTML5
 - CSS3
 - JavaScript
-- Imágenes y audio locales
 
 ## Autor
 

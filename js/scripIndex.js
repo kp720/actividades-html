@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const gato = document.getElementById("gatoImg");
     const sonidos = [
-        new Audio("../Actividad1/audio/gato1.mp3"),
-        new Audio("../Actividad1/audio/gato2.mp3"),
-        new Audio("../Actividad1/audio/gato3.mp3"),
+        new Audio("audio/gato1.mp3"),
+        new Audio("audio/gato2.mp3"),
+        new Audio("audio/gato3.mp3"),
     ];
 
     gato.addEventListener("mouseenter", () => {

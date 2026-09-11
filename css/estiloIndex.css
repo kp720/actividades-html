@@ -162,7 +162,6 @@ footer{
     }
 }
 
-/* En pantallas muy chicas (celular), 1 columna */
 @media (max-width: 500px){
     .ejercicios{
         grid-template-columns: 1fr;
