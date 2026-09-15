@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background-image: url('../img/fondoTerm.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px) brightness(0.45);
+    z-index: -2;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px 32px;
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+  }
+
+  .card h1 {
+    font-size: 22px;
+    color: #1e293b;
+    margin-bottom: 6px;
+  }
+
+  .card p.subtitle {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+
+  .field {
+    text-align: left;
+    margin-bottom: 18px;
+  }
+
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 6px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+  }
+
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #fe954f;
+  }
+
+  input[readonly] {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    font-weight: bold;
+    cursor: not-allowed;
+  }
+
+  button {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(135deg, #feac4f 0%, #fe2600 100%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    transition: opacity 0.2s, transform 0.1s;
+  }
+
+  button:hover {
+    opacity: 0.9;
+  }
+
+  button:active {
+    transform: scale(0.98);
+  }
+
+  .error-msg {
+    color: #dc2626;
+    font-size: 13px;
+    min-height: 18px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }

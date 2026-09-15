@@ -16,6 +16,10 @@ El proyecto reúne varias páginas HTML independientes. Cada ejercicio presenta 
 ├── ejercicio4.html
 ├── ejercicio5.html
 ├── ejercicio6.html
+├── ejercicio7.html
+├── ejercicio8.html
+├── ejercicio9.html
+├── ejercicio10.html
 ├── audio/
 ├── css/
 ├── img/
@@ -39,6 +43,10 @@ El proyecto reúne varias páginas HTML independientes. Cada ejercicio presenta 
 | 4 | Imágenes básicas | Página con ejemplo del uso de imágenes con `img`. |
 | 5 | Combinación de texto y enlaces | Página con ejemplo práctico del uso de hipervínculos (`a`) con texto normal (`p`). |
 | 6 | Semántica básica | Página con ejemplo de uso de `header`, `section` y `footer` para un formato básico. |
+| 7 | Listas anidadas | Página que ejemplifica el uso de listas con `ul` y `li`. |
+| 8 | Horario de clases | Página con un ejemplo de diseño de un horario con `tr`, `td` y `th`. |
+| 9 | Formulario de contacto | Página con un ejemplo de funcionalidad de un formulario básico. |
+| 10 | Calculadora de grados °C → °F | Página funcional con una calculadora que convierte grados Celsius a Fahrenheit. |
 
 
 No se necesitan dependencias ni un proceso de compilación para ejecutar estos ejercicios básicos.
